@@ -12,12 +12,12 @@ const Path = () => {
         },
         {
             'id': 2,
-            'title': 'Cyber Sec',
+            'title': 'UI/UX Design',
             'icon': 'git-compare-outline',
-            'desc': 'Create a restfull tools with python langue',
+            'desc': 'Create Beautiful UI/UX Design with Figma,Adobe XD and Sketch' ,
             'iconMore': 'chevron-forward-outline',
             'url': '/backend'
-        }
+        },
     ]
     return (<>
         <div className="path flex flex-col gap-3 my-9 md:my-14 md:flex-row md:gap-5 lg:px-28 lg:my-0 lg:mb-12" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1500">

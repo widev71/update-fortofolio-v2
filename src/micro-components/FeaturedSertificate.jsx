@@ -1,8 +1,7 @@
-import codeLogo from "../assets/image/code.png";
-import demoLogo from "../assets/image/demo.png";
+import VistLogo from "../assets/image/vist.png";
 
 
-const CardFeaturedProject = (props) => {
+const CardFeaturedSertificate = (props) => {
   return (
     <>
       <div
@@ -39,36 +38,23 @@ const CardFeaturedProject = (props) => {
 
           <div className="button flex justify-between gap-6 mt-4 xl:w-3/5">
             <a
-              href={props.linkCode}
+              href={props.linkVist}
               target={"_blank"}
               rel="noopener noreferrer"
               className="w-1/2 hover:text-white hover:no-underline focus:text-white focus:no-underline rounded-sm text-white code-link bg-dark-button-card p-2 xl:p-3 flex justify-center items-center gap-4 hover:bg-primary"
             >
-              <div className="text text-sm">code</div>
+              <div className="text text-sm">Vist</div>
               <div className="img">
-                <img src={codeLogo} alt="code-logo" className="w-4" />
+                <img src={VistLogo} alt="code-logo" className="w-4" />
               </div>
             </a>
-
-            {props.haveDemo && (
-              <a
-                href={props.linkDemo}
-                target={"_blank"}
-                rel="noopener noreferrer"
-                className="w-1/2 hover:text-white hover:no-underline focus:text-white focus:no-underline rounded-sm text-white code-link bg-dark-button-card p-2 xl:p-3 flex justify-center items-center gap-4 hover:bg-primary"
-              >
-                <div className="text text-sm">demo</div>
-                <div className="img">
-                  <img src={demoLogo} alt="code-logo" className="w-2" />
-                </div>
-              </a>
-            )}
           </div>
         </div>
       </div>
+      
     </>
   );
 };
 
-export default CardFeaturedProject;
+export default CardFeaturedSertificate;
 

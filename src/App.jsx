@@ -20,6 +20,7 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import FrontendProject from './components/FrontendProject';
 import BackendProjects from './components/BackendProject';
 import CompletedProject from './components/CompletedProject';
+import Sertificate from './components/Sertificate';
 
 
 function App() {
@@ -46,6 +47,9 @@ function App() {
           </Route>
           <Route path={"/completed-project"}>
             <CompletedProject />
+          </Route>
+          <Route path={"/Sertificate"}>
+            <Sertificate />
           </Route>
         </Switch>
       </div>

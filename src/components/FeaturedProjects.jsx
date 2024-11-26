@@ -1,13 +1,15 @@
 // import image
 import jsLogo from "../assets/image/js.png";
 import htmlLogo from "../assets/image/html.png";
-import website01 from "../assets/image/wijaya01.png"
-import foto1 from "../assets/image/fortofolio01.png"
-import foto2 from "../assets/image/wijaya02.png"
-import Logo21 from "../assets/image/react.png"
 import Logo24 from "../assets/image/css-3.png"
-import taiwind from "../assets/image/tailwind.png"
-import pythonLogo from "../assets/image/python.png"
+import tailwindLogo from "../assets/image/tailwind.png";
+import reactLogo from "../assets/image/react.png";
+
+// import project pribadi
+import pribadi1 from "../assets/image/ImageProject/pribadi1.png";
+import pribadi2 from "../assets/image/ImageProject/pribadi2.png";
+import pribadi3 from "../assets/image/ImageProject/pribadi3.png"
+
 
 
 // import component
@@ -17,34 +19,35 @@ const FeaturedProjects = () => {
   const featuredProjects = [
     {
       id: 1,
-      thumbnail: foto1,
+      thumbnail: pribadi1,
       name: "Fortofolion Pribadi",
       description: "Make simple website with javascript,React, and Tailwind language",
-      tech: [jsLogo, htmlLogo, Logo21,Logo24, taiwind],
+      tech: [jsLogo, htmlLogo, reactLogo,Logo24, tailwindLogo],
       haveDemo: true,
       linkCode: "https://github.com/DedukWijaya071/WijayaDev",
       linkDemo: "https://wijaya-dev.vercel.app",
     },
     {
       id: 2,
-      thumbnail: website01,
-      name: "Wizard animation Website",
-      description:
-        "Create a website simple animation with a HTML,CSS,JavaScrip",
-      tech: [Logo24, htmlLogo, jsLogo],
+      thumbnail: pribadi2,
+      name: "Fortofolion Pribadi",
+      description: "Make simple website with javascript,React, and Tailwind language",
+      tech: [jsLogo, htmlLogo, reactLogo,Logo24, tailwindLogo],
       haveDemo: true,
-      linkCode: "https://github.com/DedukWijaya071/Animation",
-      linkDemo: "https://dedukwijaya071.github.io/Animation/",
+      linkCode: "https://github.com/DedukWijaya071/WijayaDev",
+      linkDemo: "https://wijaya-dev.vercel.app",
     },
     {
       id: 3,
-      thumbnail: foto2,
-      name: "Wifi DDoS atack",
-      description: "Simple program DDoS atack with python",
-      tech: [pythonLogo],
-      haveDemo: false,
-      linkCode: "https://github.com/DedukWijaya071/Duuck",
+      thumbnail: pribadi3,
+      name: "Fortofolion Pribadi",
+      description: "Make simple website with javascript,React, and Tailwind language",
+      tech: [jsLogo, htmlLogo, reactLogo,Logo24, tailwindLogo],
+      haveDemo: true,
+
     },
+
+
   ];
 
   return (

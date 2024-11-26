@@ -3,14 +3,25 @@ import NavbarProject from "./NavbarProject";
 import CardFeaturedProject from "../micro-components/CardFeaturedProjects";
 import BackToTop from "./BackToTop";
 
-// * import image
-import foto1 from "../assets/image/python.png"
+// import project pribadi
+import pribadi1 from "../assets/image/ImageProject/pribadi1.png";
+import pribadi2 from "../assets/image/ImageProject/pribadi2.png";
 
 const BackendProjects = () => {
   const featuredProjects = [
     {
       id: 1,
-      thumbnail: foto1,
+      thumbnail: pribadi1,
+      name: "Simple Wifi DDoS atack",
+      description:
+        "Simple program DDoS atack with python",
+      tech: [foto1],
+      haveDemo: false,
+      linkCode: "https://github.com/DedukWijaya071/Duuck",
+    },
+    {
+      id: 1,
+      thumbnail: pribadi2,
       name: "Simple Wifi DDoS atack",
       description:
         "Simple program DDoS atack with python",
@@ -33,7 +44,7 @@ const BackendProjects = () => {
           data-aos-duration="1500"
         >
           <p className="text-white font-semibold font-Kanit text-4xl tracking-wide lg:tracking-wider xl:text-4xl">
-            Backend
+              UI/UX Design
           </p>
         </div>
 

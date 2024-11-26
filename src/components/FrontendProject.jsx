@@ -6,18 +6,18 @@ import BackToTop from "./BackToTop";
 import tailwindLogo from "../assets/image/tailwind.png";
 import reactLogo from "../assets/image/react.png";
 import CardFeaturedProject from "../micro-components/CardFeaturedProjects";
-import foto from "../assets/image/fortofolio01.png"
-import foto2 from "../assets/image/wijaya01.png"
 import logohtml from "../assets/image/html.png"
 import logojs from "../assets/image/js.png"
-import logocss from "../assets/image/css-3.png"
-import prioject3 from "../assets/image/project3.png"
+
+// import project pribadi
+import pribadi1 from "../assets/image/ImageProject/pribadi1.png";
+import pribadi2 from "../assets/image/ImageProject/pribadi2.png";
 
 const FrontendProject = () => {
   const featuredProjects = [
     {
       id: 1,
-      thumbnail: foto,
+      thumbnail: pribadi1,
       name: "Fortofolio Pribadi",
       description: "Make simple website with ,React, and Tailwind language",
       tech: [reactLogo, tailwindLogo, logohtml, logojs],
@@ -27,24 +27,15 @@ const FrontendProject = () => {
     },
     {
       id: 2,
-      thumbnail: foto2,
-      name: "Website Kelas",
-      description:"Create a websit using Reactjs and tailwind css",
-      tech: [reactLogo, tailwindLogo, logocss, logojs],
-      haveDemo: true,
-      linkCode: "https://github.com/widev71/Animation",
-      linkDemo: "https://widev71.github.io/Animation/",
-    },
-    {
-      id: 3,
-      thumbnail: prioject3,
-      name: "Website Kelas",
-      description: "Make simple website with ,React js, and Tailwind language",
+      thumbnail: pribadi2,
+      name: "Fortofolio Pribadi",
+      description: "Make simple website with ,React, and Tailwind language",
       tech: [reactLogo, tailwindLogo, logohtml, logojs],
       haveDemo: true,
-      linkCode: "https://github.com/widev71/DKV-CLASS",
-      linkDemo: "https://dkv-class.vercel.app",
-    }
+      linkCode: "https://github.com/widev71/WijayaDev",
+     linkDemo: "https://wijaya-dev.vercel.app", 
+    },
+
   ];
 
   return (
@@ -71,15 +62,16 @@ const FrontendProject = () => {
         >
           {featuredProjects.map((featuredProject) => (
             <CardFeaturedProject
-              id={featuredProject.id}
-              thumbnail={featuredProject.thumbnail}
-              name={featuredProject.name}
-              description={featuredProject.description}
-              tech={featuredProject.tech}
-              haveDemo={featuredProject.haveDemo}
-              linkCode={featuredProject.linkCode}
-              linkDemo={featuredProject.linkDemo}
-            />
+            key={featuredProject.id}
+            id={featuredProject.id}
+            thumbnail={featuredProject.thumbnail}
+            name={featuredProject.name}
+            description={featuredProject.description}
+            tech={featuredProject.tech}
+            haveDemo={featuredProject.haveDemo}
+            linkCode={featuredProject.linkCode}
+            linkDemo={featuredProject.linkDemo}
+          />
           ))}
         </div>
       </div>

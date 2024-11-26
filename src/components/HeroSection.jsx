@@ -2,6 +2,8 @@
 import emailImage from "../assets/image/email.svg";
 import linkedinImage from "../assets/image/linkedin.svg";
 import githubImage from "../assets/image/github.svg";
+//{/*import heroAnimation from "../assets/animation/astronot.webm";*/}
+//import HeroAnimation from "../assets/animation/ezgif-5-bff2069d1c.webm";
 import heroAnimation from "../assets/animation/astronot.webm";
 
 const HeroSection = () => {
