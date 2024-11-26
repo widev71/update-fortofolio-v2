@@ -24,18 +24,17 @@ const HeroSection = () => {
         <div className="right">
           <div className="greeting">
             <p className="text-primary font-semibold lg:font-semibold text-lg text-md xl:text-2xl font-Kanit tracking-wide lg:tracking-wider">
-              Hello, I,am Made Wijaya
+              Hi Visitor 
             </p>
           </div>
           <div className="role">
             <p className="text-yellow font-bold text-4xl lg:text-5xl xl:text-7xl font-Kanit">
-              Web Developer
+              I'm Ducky
             </p>
           </div>
           <div className="intro text-green-mute text-md my-5 leading-7 lg:my-6">
             <p>
-              Hello, I am an informatic engineering student who has an interest
-              in website development.
+              Welcome to my Fortofolio
             </p>
           </div>
 

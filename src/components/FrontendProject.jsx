@@ -11,6 +11,7 @@ import foto2 from "../assets/image/wijaya01.png"
 import logohtml from "../assets/image/html.png"
 import logojs from "../assets/image/js.png"
 import logocss from "../assets/image/css-3.png"
+import prioject3 from "../assets/image/project3.png"
 
 const FrontendProject = () => {
   const featuredProjects = [
@@ -18,22 +19,32 @@ const FrontendProject = () => {
       id: 1,
       thumbnail: foto,
       name: "Fortofolio Pribadi",
-      description: "Make simple website with javascript,React, and Tailwind language",
+      description: "Make simple website with ,React, and Tailwind language",
       tech: [reactLogo, tailwindLogo, logohtml, logojs],
       haveDemo: true,
-      linkCode: "https://github.com/DedukWijaya071/WijayaDev",
+      linkCode: "https://github.com/widev71/WijayaDev",
      linkDemo: "https://wijaya-dev.vercel.app", 
     },
     {
       id: 2,
       thumbnail: foto2,
-      name: "react website",
-      description:"Create a websit using reactjs and tailwind css",
-      tech: [logohtml, logocss, logojs],
+      name: "Website Kelas",
+      description:"Create a websit using Reactjs and tailwind css",
+      tech: [reactLogo, tailwindLogo, logocss, logojs],
       haveDemo: true,
-      linkCode: "https://github.com/DedukWijaya071/Animation",
-      linkDemo: "https://dedukwijaya071.github.io/Animation/",
+      linkCode: "https://github.com/widev71/Animation",
+      linkDemo: "https://widev71.github.io/Animation/",
     },
+    {
+      id: 3,
+      thumbnail: prioject3,
+      name: "Website Kelas",
+      description: "Make simple website with ,React js, and Tailwind language",
+      tech: [reactLogo, tailwindLogo, logohtml, logojs],
+      haveDemo: true,
+      linkCode: "https://github.com/widev71/DKV-CLASS",
+      linkDemo: "https://dkv-class.vercel.app",
+    }
   ];
 
   return (
